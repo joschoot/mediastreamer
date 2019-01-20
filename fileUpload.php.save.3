@@ -1,0 +1,60 @@
+
+
+<?php
+include("config_files.php");
+session_start();
+    $currentDir = getcwd();
+    $uploadDirectory = "/uploads/";
+
+    $errors = []; // Store all foreseen and unforseen errors here
+
+    $fileExtensions = ['mp4','mkv','avi']; // Get all the file extensions
+
+    $fileName = $_FILES['myfile']['name'];
+    $fileSize = $_FILES['myfile']['size'];
+    $fileTmpName  = $_FILES['myfile']['tmp_name'];
+    $fileType = $_FILES['myfile']['type'];
+    $fileExtension = strtolower(end(explode('.',$fileName)));
+
+    $uploadPath = $currentDir . $uploadDirectory . basename($fileName); 
+    //$sql = "INSERT INTO `files` (`filename`) VALUES ('/uploads/upload.mp4');"; 
+    if (isset($_POST['submit'])) {
+
+        if (! in_array($fileExtension,$fileExtensions)) {
+            $errors[] = "This file extension is not allowed. Please upload a mp4, mkv or avi file";
+        }
+
+        if ($fileSize > 2000000000000000000) {
+            $errors[] = "This file is more than 2MB. Sorry, it has to be less than or equal to 2MB";
+        }
+
+        if (empty($errors)) {
+            $didUpload = move_uploaded_file($fileTmpName, $uploadPath);
+
+            if ($didUpload) {
+	        echo "The file " . basename($fileName) . " has been uploaded";
+                //$sql = "INSERT INTO `files` (`filename`) VALUES ('/uploads');";
+	        $sql = "INSERT INTO `files` (`filename`) VALUES ('$uploadPath');";
+		if ($conn->query($sql) === TRUE) {
+		$name = shell_exec("echo $fileName | cut -d '/' -f 6");
+		$name = trim($name);
+                exec("ffmpeg -ss 00:00:5.0 -i /var/www/html/uploads/{$name} -vframes 1 -filter:v 'yadif,scale=400:300' /var/www/html/thumbnails/{$name}.png");	
+
+		exec("cp playback.php ");
+#echo "ffmpeg -ss 00:00:5.0 -i /var/www/html/uploads/{$name} -vframes 1 -filter:v 'yadif,scale=420:270' /var/www/html/thumbnails/{$name}'.png'";
+#echo $name;
+		#header("Location: index.php ");
+		#echo
+		}
+	    } else {
+                echo "An error occurred somewhere. Try again or contact the admin";
+            }
+        } else {
+            foreach ($errors as $error) {
+                echo $error . ". These are the errors" . "\n";
+            }
+        }
+    }
+
+
+?>

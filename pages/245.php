@@ -1,11 +1,14 @@
 <?php
 
    include('session.php');
-  
-$link = "../uploads/test539.mp4";
+   include("config_files.php");   
+$link = "../uploads/245.mp4"; $lastID = "245"; $givenName = "Funny Bunny"
 
-$vidname = $link;
-$vidname = substr($vidname,11, -4);
+
+
+
+
+
 
 
 ?>
@@ -63,28 +66,22 @@ $vidname = substr($vidname,11, -4);
         </div>
     </div>
 </nav>
+<center>
 
 
-<header class="bg-primary text-white">
-    <div class="container text-center">
-        <h1>Media Streamer Schroeff Holding</h1>
-        <p class="lead">A CSI Project for the company Cyse</p>
-    </div>
-</header>
-
-<section id="about">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 mx-auto">
-<h2> <?php echo $vidname  ; ?></h2>
-                 <video width="600" height="300" controls>
+<div class="row-2">
+ <ul>
+<p style="margin-top: 80px;"><h1><?php echo $givenName; ?></h1>
+ </ul>
+<video width="1024" height="768" controls>
 <?php
 echo "<source src=\"$link\" type=\"video/mp4\">";
 echo "<source src=\"$link\" type=\"video/ogg\">";
 ?>
 Your browser does not support the video tag.
-</video>                  
-                </ul>
+</video>                 
+</center>        
+        </ul>
             </div>
         </div>
     </div>

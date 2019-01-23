@@ -73,21 +73,7 @@
 
 
 
-<div class="col-lg-3 col-md-4 col-xs-6"> <center><h3>Let me Down</h3></center> <a href="https://media.schroeff.nl/pages/244.php" class="d-block mb-4 h-100"> <img class="img-fluid img-thumbnail" src="/thumbnails/244.png" <h4>2019/01/20 23:47</h4> </a> </div>
-<div class="col-lg-3 col-md-4 col-xs-6"> <center><h3>hgh</h3></center> <a href="https://media.schroeff.nl/pages/243.php" class="d-block mb-4 h-100"> <img class="img-fluid img-thumbnail" src="/thumbnails/243.png" <h4>2019/01/20 23:45</h4> </a> </div>
-<div class="col-lg-3 col-md-4 col-xs-6"> <center><h3>d</h3></center> <a href="https://media.schroeff.nl/pages/242.php" class="d-block mb-4 h-100"> <img class="img-fluid img-thumbnail" src="/thumbnails/242.png" <h4>2019/01/20 23:44</h4> </a> </div>
-<div class="col-lg-3 col-md-4 col-xs-6"> <center><h3>Iron Man 2</h3></center> <a href="https://media.schroeff.nl/pages/241.php" class="d-block mb-4 h-100"> <img class="img-fluid img-thumbnail" src="/thumbnails/241.png" <h4>2019/01/20 21:00</h4> </a> </div>
-<div class="col-lg-3 col-md-4 col-xs-6"> <center><h3>Iron Man</h3></center> <a href="https://media.schroeff.nl/pages/240.php" class="d-block mb-4 h-100"> <img class="img-fluid img-thumbnail" src="/thumbnails/240.png" <h4>2019/01/20 20:59</h4> </a> </div>
-<div class="col-lg-3 col-md-4 col-xs-6"> <center><h3>Jurassic Park</h3></center> <a href="https://media.schroeff.nl/pages/239.php" class="d-block mb-4 h-100"> <img class="img-fluid img-thumbnail" src="/thumbnails/239.png" <h4>2019/01/20 20:55</h4> </a> </div>
-<div class="col-lg-3 col-md-4 col-xs-6"> <center><h3>John Wick</h3></center> <a href="https://media.schroeff.nl/pages/238.php" class="d-block mb-4 h-100"> <img class="img-fluid img-thumbnail" src="/thumbnails/238.png" <h4>2019/01/20 20:54</h4> </a> </div>
-<div class="col-lg-3 col-md-4 col-xs-6"> <center><h3>Bourne Identity</h3></center> <a href="https://media.schroeff.nl/pages/237.php" class="d-block mb-4 h-100"> <img class="img-fluid img-thumbnail" src="/thumbnails/237.png" <h4>2019/01/20 20:50</h4> </a> </div>
-<div class="col-lg-3 col-md-4 col-xs-6"> <center><h3>Star Wars III</h3></center> <a href="https://media.schroeff.nl/pages/236.php" class="d-block mb-4 h-100"> <img class="img-fluid img-thumbnail" src="/thumbnails/236.png" <h4>2019/01/20 20:47</h4> </a> </div>
-<div class="col-lg-3 col-md-4 col-xs-6"> <center><h3>WALL E</h3></center> <a href="https://media.schroeff.nl/pages/235.php" class="d-block mb-4 h-100"> <img class="img-fluid img-thumbnail" src="/thumbnails/235.png" <h4>2019/01/20 20:46</h4> </a> </div>
-<div class="col-lg-3 col-md-4 col-xs-6"> <center><h3>Sherlock Holmes</h3></center> <a href="https://media.schroeff.nl/pages/233.php" class="d-block mb-4 h-100"> <img class="img-fluid img-thumbnail" src="/thumbnails/233.png" <h4>2019/01/20 20:39</h4> </a> </div>
-<div class="col-lg-3 col-md-4 col-xs-6"> <center><h3>Die Hard (1988)</h3></center> <a href="https://media.schroeff.nl/pages/232.php" class="d-block mb-4 h-100"> <img class="img-fluid img-thumbnail" src="/thumbnails/232.png" <h4>2019/01/20 20:34</h4> </a> </div>
-<div class="col-lg-3 col-md-4 col-xs-6"> <center><h3>Jellyfish</h3></center> <a href="https://media.schroeff.nl/pages/231.php" class="d-block mb-4 h-100"> <img class="img-fluid img-thumbnail" src="/thumbnails/231.png" <h4>2019/01/20 20:28</h4> </a> </div>
-<div class="col-lg-3 col-md-4 col-xs-6"> <center><h3>Funny bunny</h3></center> <a href="https://media.schroeff.nl/pages/230.php" class="d-block mb-4 h-100"> <img class="img-fluid img-thumbnail" src="/thumbnails/230.png" <h4>2019/01/20 20:20</h4> </a> </div>
-<div class="col-lg-3 col-md-4 col-xs-6"> <center><h3>Batman Begins</h3></center> <a href="https://media.schroeff.nl/pages/.php" class="d-block mb-4 h-100"> <img class="img-fluid img-thumbnail" src="/thumbnails/.png" <h4>2019/01/20 20:17</h4> </a> </div>
+<div class="col-lg-3 col-md-4 col-xs-6"> <center><h3>Funny Bunny</h3></center> <a href="https://media.schroeff.nl/pages/245.php" class="d-block mb-4 h-100"> <img class="img-fluid img-thumbnail" src="/thumbnails/245.png" <h4>2019/01/23 12:46</h4> </a> </div>
 
 
 
